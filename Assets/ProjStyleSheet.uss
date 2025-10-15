@@ -1,0 +1,11 @@
+.MainMenuButtons {
+    background-color: rgb(255, 138, 234);
+    width: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 40px;
+}
+
+.MainMenuButtons:hover {
+    background-color: rgb(144, 255, 143);
+}

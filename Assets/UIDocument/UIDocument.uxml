@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ProjStyleSheet.uss?fileID=7433441132597879392&amp;guid=43f22dcb36cb7ba45816170ff574ccd8&amp;type=3#ProjStyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; flex-shrink: 1;">
+        <ui:VisualElement name="MainMenuPanel" style="width: 50%; align-self: center; align-items: center; align-content: auto; justify-content: center; height: 75%;">
+            <ui:Label text="Title" name="Title" style="text-overflow: clip; white-space: normal; -unity-text-align: middle-center; -unity-font-style: bold; font-size: 25px; width: 100%; height: auto;" />
+            <ui:VisualElement name="ButtonControl" class="MainMenuButtons" style="background-color: rgba(118, 118, 118, 0); -unity-text-align: upper-left; -unity-font-style: normal; width: 100%; align-items: center; height: auto;">
+                <ui:Button text="Start" name="StartButton" class="MainMenuButtons" style="-unity-font-style: normal;" />
+                <ui:Button text="Settings" class="MainMenuButtons" />
+                <ui:Button text="Quit" class="MainMenuButtons" />
+            </ui:VisualElement>
+            <ui:VisualElement style="height: auto;">
+                <ui:Slider label="Slider" value="38.88" high-value="100" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
